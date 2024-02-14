@@ -62,13 +62,13 @@ const Header = () => {
                <span className="ml-4"></span> 
               <button className="text-white bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded-md">Signup</button>
                </Link>
-               <Link to="/profile" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 flex items-center">
+               <Link to="/profile" className=" px-4 py-2 text-gray-800 hover:bg-gray-200 flex items-center">
                   <i className="fas fa-user-circle mr-2"></i>My Profile
                 </Link>
-                <Link to="/orders" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 flex items-center">
+                <Link to="/orders" className=" px-4 py-2 text-gray-800 hover:bg-gray-200 flex items-center">
                   <i className="fas fa-shopping-bag mr-2"></i>Orders
                 </Link>
-                <Link to="/wishlist" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 flex items-center">
+                <Link to="/wishlist" className=" px-4 py-2 text-gray-800 hover:bg-gray-200 flex items-center">
                   <i className="fas fa-heart mr-2"></i>Wishlist
                 </Link>
               </div>
